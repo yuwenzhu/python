@@ -1,5 +1,5 @@
 import threading
-from apiauto1.TestAllCase import *
+from TestAllCase import *
 
 def threads():
     threads=[]

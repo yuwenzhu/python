@@ -1,4 +1,4 @@
-from apiauto1.mysqlopertion import MySQLcaozuo
+from mysqlopertion import MySQLcaozuo
 def inster_data(table, datas):
     db = MySQLcaozuo()
     db.clear(table)

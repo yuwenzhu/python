@@ -1,4 +1,4 @@
-from apiauto1.testvote import *
+from testvote import *
 
 def demo1():
     zuoye_1()

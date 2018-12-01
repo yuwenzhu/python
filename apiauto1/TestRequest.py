@@ -3,7 +3,7 @@ import requests
 import urllib3
 urllib3.disable_warnings()
 requests.packages.urllib3.disable_warnings()
-from apiauto1.log import logger
+from log import logger
 #添加一个数组，用来装测试结果
 hlist=[]
 #公共的头文件设置

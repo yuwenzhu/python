@@ -1,16 +1,16 @@
 # -*- coding:utf-8 -*-
 import xlsxwriter
 import time
-import apiauto1.TestRequest
-from apiauto1.testvote import *
+import TestRequest
+from testvote import *
 #把GetTestReport方法自己写出来
 # from apiauto.day9.TestAllRunner import *
-from apiauto1.testdata.getpath import GetTestReport
-from apiauto.day10.initdata import init_data
-from apiauto1.sendmail import MyMail
-from apiauto1.log import logger
-from apiauto1.testdata.getpath import GetTestConfig
-# from apiauto.day7.TestAllCase import *
+from testdata.getpath import GetTestReport
+from initdata import init_data
+from sendmail import MyMail
+from log import logger
+from testdata.getpath import GetTestConfig
+# from TestAllCase import *
 
 # init_data()
 # test_post_vote()
@@ -26,7 +26,7 @@ zuoye_3()
 # demo2()
 # demo1()
 
-TestReport = apiauto1.TestRequest.hlist  # 调用测试结果
+TestReport = TestRequest.hlist  # 调用测试结果
 
 hpassnum = 0  # 定义一个变量，用来计算测试通过的用例数量
 

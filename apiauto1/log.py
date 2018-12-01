@@ -48,9 +48,9 @@
 import logging
 from logging.handlers import RotatingFileHandler
 import threading
-from apiauto1.testdata.getpath import GetTestLogPath
+from testdata.getpath import GetTestLogPath
 import configparser
-from apiauto1.testdata.getpath import GetTestConfig
+from testdata.getpath import GetTestConfig
 
 class LogSignleton(object):
     def __init__(self):

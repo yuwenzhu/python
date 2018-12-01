@@ -1,6 +1,6 @@
 import pymysql.cursors
 import configparser
-from apiauto1.testdata.getpath import GetTestConfig
+from testdata.getpath import GetTestConfig
 
 config=configparser.ConfigParser()
 config.read(GetTestConfig('dbconfig.conf'))

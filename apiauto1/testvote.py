@@ -1,6 +1,6 @@
 import xlrd
-from apiauto1.TestRequest import *
-from apiauto1.testdata.getpath import *
+from TestRequest import *
+from testdata.getpath import *
 
 testdata=xlrd.open_workbook(GetTestDataPath())
 
