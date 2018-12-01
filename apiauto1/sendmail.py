@@ -2,7 +2,7 @@
 import configparser
 import smtplib
 #·¢ËÍ¸½¼þ
-from apiauto1.testdata.getpath import GetTestConfig
+from testdata.getpath import GetTestConfig
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
